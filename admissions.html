@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>过往录取</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #fff; padding: 20px; text-align: right; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); }
+        nav { display: flex; justify-content: flex-end; gap: 20px; padding: 20px; }
+        nav a { text-decoration: none; color: #333; font-size: 18px; }
+        
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 80vh;
+            padding: 50px;
+        }
+        
+        .text {
+            width: 50%;
+            padding-right: 20px;
+            text-align: left;
+        }
+        
+        .text h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        
+        .text p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        
+        .image {
+            width: 50%;
+            text-align: right;
+        }
+        
+        .image img {
+            width: 90%;
+            max-width: 600px;
+            height: auto;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                text-align: center;
+            }
+            .text, .image {
+                width: 100%;
+                padding: 0;
+            }
+            .image img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">首页</a>
+            <a href="about.html">关于我们</a>
+            <a href="admissions.html">过往录取</a>
+            <a href="contact.html">联系方式</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="text">
+            <h2>高爬藤率 / 稳健可靠</h2>
+            <p>
+                过去十年中，各导师辅导的学生美本爬藤率显著，学生录取包括斯坦福、牛剑、哥大、芝大、西北等多所名校。
+                美高也斩获 Marlborough, Crossroads 等多所名校。此外，在所有学生无 top 标化的情况下，申请历史上从未有学生
+                跌出过 US News Top 40 的学校。稳固扎实，冲名校，是我们的服务核心。
+            </p>
+        </div>
+        <div class="image">
+            <img src="school.png" alt="过往录取学校">
+        </div>
+    </div>
+</body>
+</html>
